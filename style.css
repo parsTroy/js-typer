@@ -1,9 +1,10 @@
 :root {
-    --main-bg-clr: #cafafe;
-    --accent-clr: #55bcc9;
-    --accent-clr-2: #97caef;
+    --main-bg-clr: #222c3c;
+    --accent-clr: #4c515a;
+    --accent-clr-2: #d8b26e;
     --correct: #3feee6;
     --inCorrect: #fc4445;
+    --text-clr: #e2e0d5;
 }
 
 /* VARIABLES ABOVE ^^^ */
@@ -18,12 +19,12 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: var(--main-bg-clr);
-    color: #fff;
+    color: var(--text-clr);
 }
 body,
 .quote-input {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #fff;
+    color: var(--text-clr);
 }
 
 .max-container {
@@ -44,14 +45,14 @@ body,
 .timer {
     text-align: center;
     font-size: 3rem;
-    color: var(--accent-clr);
+    color: var(--accent-clr-2);
     font-weight: bold;
 }
 
 .title {
     margin-bottom: 50px;
     text-align: center;
-    color: var(--accent-clr);
+    color: var(--accent-clr-2);
 }
 
 .quoteDisplayContainer,
@@ -123,7 +124,7 @@ body,
     border-radius: 4px;
     border: none;
     background: rgba(255, 255, 255, 0.2);
-    color: #fff;
+    color: var(--text-clr);
     font-size: 1.05rem;
     outline: none;
     display: inline-flex;
