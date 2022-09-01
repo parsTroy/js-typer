@@ -21,9 +21,12 @@ body {
     background-color: var(--main-bg-clr);
     color: var(--text-clr);
 }
-body,
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--text-clr);
+}
 .quote-input {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Dosis', sans-serif;
     color: var(--text-clr);
 }
 
@@ -79,7 +82,7 @@ body,
     margin: auto;
     resize: none;
     padding: .5rem 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     border-radius: .5rem;
 }
 /* .quote-input:focus {
